@@ -1165,8 +1165,11 @@ const TREND_LABEL: Record<TickerAnalysis["trend"], string> = {
 };
 
 function stanceClass(stance: string): "bull" | "bear" | "neutral" {
-  if (/多|涨|bull/i.test(stance)) return "bull";
-  if (/空|跌|bear/i.test(stance)) return "bear";
+  // Supports both legacy ("看多"/"看空") and current ("偏上行"/"偏下行")
+  // stance values. The current values were chosen to avoid Sonnet's
+  // "no investment advice" guardrail; rendering keeps both readable.
+  if (/多|涨|上行|bull/i.test(stance)) return "bull";
+  if (/空|跌|下行|bear/i.test(stance)) return "bear";
   return "neutral";
 }
 
