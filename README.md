@@ -148,7 +148,7 @@
   - ⚠️ **Settings → Environments → \<某个 environment\>**（页眉是 "Environment secrets" / "Environment variables"）—— 这里的值**只有当 workflow job 显式声明了 `environment: <name>` 才会注入**；本项目默认 workflow 没声明，所以放这里运行时拿不到
   
   排查方法：进配置页面看页眉。如果写的是 "Environment ..." 你有**两种修法**任选其一：
-  - **简单做法（推荐）**：把所有 secret 和 variable 从 Environment scope 移到 Repository scope（路径：Settings 左栏 → "Secrets and variables → Actions"，注意**不要从 "Environments" 进**），workflow 不用改
+  - **简单做法（推荐）**：把所有 secret **和** variable 从 Environment scope 移到 Repository scope（路径：Settings 左栏 → "Secrets and variables → Actions"，注意**不要从 "Environments" 进**），workflow 不用改。**特别提醒**：secret（如 `DEEPSEEK_API_KEY` / `ANTHROPIC_API_KEY`）因为隐藏了值，最容易被忘掉只搬 variable 不搬 secret，导致换了个新错误（"key 未设置"）。两边都要搬完整
   - **保留 Environment 的做法**：编辑 `.github/workflows/daily.yml`，在 `gate` 和 `build` 两个 job 各加一行 `environment: <你的环境名>`（两个都要加，因为 `gate` 也读 `vars.REPORT_TZ` 等变量），名字必须跟 Settings → Environments 里建的一字不差。适合想用 environment 做审批门禁 / branch 限制的人
 - **跑了 30 秒就挂（其他情况）** —— LLM API 返 400 / key 没余额 / 配额耗尽。看 step "Generate today's report" 的 log
 
@@ -166,7 +166,7 @@ irm https://raw.githubusercontent.com/leiting-eric/DailyBrief/main/bootstrap.mjs
 1. 检查 Node / git / claude CLI 是否就位（没装 claude CLI 只发警告，可继续走 API 后端）
 2. `git clone` 到 `~/daily-brief`（Windows: `%USERPROFILE%\daily-brief`）
 3. `npm install`
-4. 注册系统定时（Windows Task Scheduler / macOS launchd / Linux cron，默认 16:00 本地时间）
+4. 注册系统定时（Windows Task Scheduler / macOS launchd / Linux cron，默认 08:00 本地时间）
 5. 写 `~/.daily-brief-config` 记录项目路径
 6. 在 `~/.claude/` 建符号链接让 Claude Code 的 skill 和 slash command 全局可用
 7. 跑一次 `npm run dry-run` 烟测
@@ -672,7 +672,7 @@ If you just want the default (08:00 local daily), **set only `REPORT_TZ`** (e.g.
   - ⚠️ **Settings → Environments → \<some environment\>** (header reads "Environment secrets" / "Environment variables") — values here are **only injected when a workflow job declares `environment: <name>`**; the default workflow doesn't, so anything stored here is invisible at runtime
   
   Open your config page and check the section header. If it says "Environment ..." you have **two fixes**, pick one:
-  - **Simple fix (recommended)**: move every secret and variable from Environment scope to Repository scope (Settings sidebar → "Secrets and variables → Actions" — **don't enter via "Environments"**). No workflow edit needed.
+  - **Simple fix (recommended)**: move every secret **and** variable from Environment scope to Repository scope (Settings sidebar → "Secrets and variables → Actions" — **don't enter via "Environments"**). No workflow edit needed. **Watch out**: secrets like `DEEPSEEK_API_KEY` / `ANTHROPIC_API_KEY` hide their values, so it's easy to "move" only the visible variables and forget the secrets — then you trade the old error for a new one ("key is not set"). Move both, completely.
   - **Keep-the-environment fix**: edit `.github/workflows/daily.yml` and add `environment: <your-env-name>` to BOTH the `gate` and `build` jobs (both, because `gate` reads `vars.REPORT_TZ` etc. too). The name must exactly match the environment you created under Settings → Environments. Useful if you want environment-based approval gates or branch restrictions.
 - **Fails after ~30s (other cases)** — LLM API returned 400, the key has no credit, or quota is exhausted. Check the "Generate today's report" step's log.
 
@@ -690,7 +690,7 @@ This script will:
 1. Check that Node / git / claude CLI are on PATH (claude CLI missing is a warning, not an error — you can use an API backend instead)
 2. `git clone` to `~/daily-brief` (Windows: `%USERPROFILE%\daily-brief`)
 3. `npm install`
-4. Register the OS scheduler (Windows Task Scheduler / macOS launchd / Linux cron, default 16:00 local time)
+4. Register the OS scheduler (Windows Task Scheduler / macOS launchd / Linux cron, default 08:00 local time)
 5. Write `~/.daily-brief-config` recording the project path
 6. Symlink the Claude Code skill + slash commands into `~/.claude/` so they work from any directory
 7. Run `npm run dry-run` as a smoke test
