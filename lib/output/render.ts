@@ -31,7 +31,7 @@ const TEXTS_ZH = {
   catTrading: "市场行情",
   catCommunity: "社区讨论",
   subAiNews: "AI 媒体",
-  subTrendingPapers: "热门论文",
+  subTrendingPapers: "跨尺度 AI 论文",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
   subCnCommunity: "中文社区",
@@ -80,7 +80,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   catTrading: "Markets",
   catCommunity: "Community",
   subAiNews: "AI Media",
-  subTrendingPapers: "Trending Papers",
+  subTrendingPapers: "Cross-scale AI Papers",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
   subCnCommunity: "Chinese Community",
@@ -203,7 +203,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
-  "tech:trending-papers": 20,
+  "tech:trending-papers": 10,
 };
 
 /**
@@ -214,6 +214,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
 const PRESERVE_FETCH_ORDER_SOURCES = new Set([
   "attentionvc-ai",
   "huggingface-papers",
+  "arxiv-cross-scale",
 ]);
 
 function displayLimitFor(

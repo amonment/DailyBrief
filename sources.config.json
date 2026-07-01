@@ -127,7 +127,7 @@
   },
   {
     "id": "huggingface-papers",
-    "name": "HuggingFace Trending Papers",
+    "name": "HuggingFace 热门论文",
     "type": "api",
     "url": "https://huggingface.co/api/daily_papers",
     "category": "tech",
@@ -137,8 +137,41 @@
       "zh",
       "en"
     ],
-    "keywords": ["LLM", "agent", "RAG", "reasoning", "coding"],
-    "notes": "Daily trending papers from HuggingFace. Set keywords to filter; empty array or omit for all papers."
+    "keywords": [
+      "multiscale",
+      "multi-scale",
+      "cross-scale",
+      "multi-resolution",
+      "scale-aware",
+      "hierarchical representation",
+      "neural operator",
+      "scientific machine learning"
+    ],
+    "notes": "HuggingFace 热门论文中的跨尺度 AI 主题，作为热度信号。"
+  },
+  {
+    "id": "arxiv-cross-scale",
+    "name": "arXiv 跨尺度 AI",
+    "type": "api",
+    "url": "https://export.arxiv.org/api/query",
+    "category": "tech",
+    "subcategory": "trending-papers",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "multiscale",
+      "multi-scale",
+      "cross-scale",
+      "multi-resolution",
+      "scale-aware",
+      "hierarchical representation",
+      "neural operator",
+      "scientific machine learning"
+    ],
+    "notes": "最近 8 天的 arXiv 新论文；跨计算机、物理、生物与工程学科检索，并要求机器学习/神经网络信号，按关键词相关度和时效排序。"
   },
   {
     "id": "tldr-ai",

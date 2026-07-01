@@ -1,13 +1,13 @@
 name: Daily Brief
 
-# Personal deployment: Chinese report via DeepSeek every Monday, Wednesday,
-# and Friday at 08:30 Europe/Berlin time. GitHub may start scheduled jobs a few
+# Personal deployment: Chinese report via DeepSeek every weekday at 08:00
+# Europe/Berlin time. GitHub may start scheduled jobs a few
 # minutes late; the timezone gate keeps daylight-saving changes correct.
 
 on:
   schedule:
-    # Probe once per hour at :30 UTC. The gate below selects 08:30 Berlin time.
-    - cron: '30 * * * *'
+    # Probe once per hour at :00 UTC. The gate below selects 08:00 Berlin time.
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -43,7 +43,7 @@ jobs:
           echo "Now in Europe/Berlin: $NOW_PRINT"
 
           case "$NOW_DOW" in
-            1|3|5) DAY_MATCH=true ;;
+            1|2|3|4|5) DAY_MATCH=true ;;
             *) DAY_MATCH=false ;;
           esac
 

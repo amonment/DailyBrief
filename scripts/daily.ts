@@ -45,7 +45,32 @@ async function fetchAll(): Promise<ArticleInput[]> {
       console.error(`  ${source.id.padEnd(20)} FAILED — ${msg}`);
     }
   }
-  return articles;
+  return dedupePaperArticles(articles);
+}
+
+function paperKey(article: ArticleInput): string {
+  const id = article.url
+    .match(/(?:arxiv\.org\/(?:abs|pdf)\/|huggingface\.co\/papers\/)([^?#/]+)/i)?.[1]
+    ?.replace(/v\d+$/i, "");
+  if (id) return `arxiv:${id.toLowerCase()}`;
+  return `title:${article.title.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, "")}`;
+}
+
+/** Keep one copy when a paper appears in both Hugging Face and arXiv. */
+function dedupePaperArticles(articles: ArticleInput[]): ArticleInput[] {
+  const paperSourceIds = new Set(
+    sources
+      .filter((source) => source.subcategory === "trending-papers")
+      .map((source) => source.id),
+  );
+  const seen = new Set<string>();
+  return articles.filter((article) => {
+    if (!paperSourceIds.has(article.sourceId)) return true;
+    const key = paperKey(article);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 async function enrichGhTrending(articles: ArticleInput[]): Promise<void> {
@@ -119,14 +144,21 @@ async function enrichXViral(articles: ArticleInput[]): Promise<void> {
 }
 
 /**
- * Trending papers enrichment — preserves the fetcher's upvote-desc order
- * (huggingface-papers is in PRESERVE_FETCH_ORDER_SOURCES) and caps to the
- * displayed limit (matches SOURCE_DISPLAY_LIMITS["tech:trending-papers"]).
+ * Academic-paper enrichment covers both Hugging Face popularity picks and
+ * arXiv cross-scale discovery, capped to the displayed paper limit.
  */
 async function enrichTrendingPapers(articles: ArticleInput[]): Promise<void> {
-  const papers = articles
-    .filter((a) => a.sourceId === "huggingface-papers")
-    .slice(0, 20);
+  const paperSourceIds = sources
+    .filter(
+      (source) =>
+        source.subcategory === "trending-papers" && source.enabled !== false,
+    )
+    .map((source) => source.id);
+  const papers = paperSourceIds.flatMap((sourceId) =>
+    articles
+      .filter((article) => article.sourceId === sourceId)
+      .slice(0, 10),
+  );
   if (papers.length === 0) return;
   console.log(
     `[daily] enriching ${papers.length} trending papers with ${REPORT_LOCALE} summaries…`,
