@@ -187,6 +187,36 @@
     ]
   },
   {
+    "id": "hydrogen-fuel-news",
+    "name": "Hydrogen Fuel News",
+    "type": "rss",
+    "url": "https://www.hydrogenfuelnews.com/feed/",
+    "category": "tech",
+    "subcategory": "hydrogen-energy",
+    "useCurl": true,
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "氢能项目、政策、技术与产业动态。"
+  },
+  {
+    "id": "fuel-cells-works",
+    "name": "Fuel Cells Works",
+    "type": "rss",
+    "url": "https://fuelcellsworks.com/feed/",
+    "category": "tech",
+    "subcategory": "hydrogen-energy",
+    "useCurl": true,
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "燃料电池、制氢、储运、项目投资与政策动态。"
+  },
+  {
     "id": "smol-ai-news",
     "name": "Smol AI News",
     "type": "rss",

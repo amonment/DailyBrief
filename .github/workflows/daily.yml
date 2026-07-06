@@ -1,13 +1,13 @@
 name: Daily Brief
 
 # Personal deployment: Chinese report via DeepSeek every weekday at 08:00
-# Europe/Berlin time. GitHub may start scheduled jobs a few
-# minutes late; the timezone gate keeps daylight-saving changes correct.
+# Europe/Berlin time. GitHub can silently drop or heavily delay cron events,
+# so two hourly probes plus a missing-report check provide automatic catch-up.
 
 on:
   schedule:
-    # Probe once per hour at :00 UTC. The gate below selects 08:00 Berlin time.
-    - cron: '0 * * * *'
+    - cron: '7 * * * *'
+    - cron: '37 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,6 +28,7 @@ jobs:
         id: check
         env:
           EVENT_NAME: ${{ github.event_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
 
@@ -47,11 +48,28 @@ jobs:
             *) DAY_MATCH=false ;;
           esac
 
-          if [ "$NOW_HOUR" = "8" ] && [ "$DAY_MATCH" = "true" ]; then
-            echo "Schedule matched — generating report"
+          if [ "$DAY_MATCH" != "true" ] || [ "$NOW_HOUR" -lt 8 ]; then
+            echo "Before the weekday reporting window — skipping"
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          TODAY=$(TZ=Europe/Berlin date +%Y-%m-%d)
+          CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "$CHECK_URL" || echo "000")
+
+          if [ "$HTTP_CODE" = "404" ]; then
+            echo "Today's report is missing — starting catch-up build"
             echo "should-run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$HTTP_CODE" = "200" ]; then
+            echo "Today's report already exists — skipping"
+            echo "should-run=false" >> "$GITHUB_OUTPUT"
           else
-            echo "Schedule did not match — skipping"
+            echo "Report existence check returned HTTP $HTTP_CODE — retrying at the next probe"
             echo "should-run=false" >> "$GITHUB_OUTPUT"
           fi
 

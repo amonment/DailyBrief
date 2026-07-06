@@ -109,6 +109,10 @@ async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "tech", "ai-news");
 }
 
+async function enrichHydrogenEnergy(articles: ArticleInput[]): Promise<void> {
+  await enrichMergedSubgroup(articles, "tech", "hydrogen-energy");
+}
+
 /**
  * X 热帖 enrichment is different from merged subgroups — we preserve the
  * AttentionVC API's heat-rank order (do NOT sort by date) and cap to the
@@ -289,6 +293,7 @@ async function main() {
   await enrichFinanceNews(articles);
   await enrichPolitics(articles);
   await enrichAiNews(articles);
+  await enrichHydrogenEnergy(articles);
   await enrichXViral(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
