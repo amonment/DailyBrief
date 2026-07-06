@@ -6,216 +6,216 @@
       "title": "Zackriya-Solutions/meetily",
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "excerpt": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &",
-      "meta": "Rust · ★ 17,814 · 🍴 1,849 · 📈 1,409 stars today",
+      "meta": "Rust · ★ 17,853 · 🍴 1,851 · 📈 1,409 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "基于Rust构建的隐私优先AI会议助手，支持4倍速Parakeet/Whisper实时转录、说话人分离和Ollama摘要，所有处理100%本地完成，无需云服务。"
+      "summary": "基于 Rust 的隐私优先 AI 会议助手，支持 4 倍速 Parakeet/Whisper 实时转录、说话人分离和 Ollama 摘要，所有处理 100% 本地完成，无需云服务。适合注重数据隐私的用户进行会议记录、整理摘要等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "openai/codex-plugin-cc",
       "url": "https://github.com/openai/codex-plugin-cc",
       "excerpt": "Use Codex from Claude Code to review code or delegate tasks.",
-      "meta": "JavaScript · ★ 25,805 · 🍴 1,559 · 📈 1,532 stars today",
+      "meta": "JavaScript · ★ 25,829 · 🍴 1,559 · 📈 1,532 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "允许在Claude Code中调用OpenAI Codex插件，用于代码审查或任务委派，扩展编程助手的协作能力。"
+      "summary": "允许在 Claude Code 中调用 OpenAI Codex 来审查代码或委托任务，实现多模型协作。开发者可在终端中同时利用两种 AI 编码助手，提升代码审查与任务自动化效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "asgeirtj/system_prompts_leaks",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "excerpt": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "meta": "JavaScript · ★ 50,442 · 🍴 8,235 · 📈 981 stars today",
+      "meta": "JavaScript · ★ 50,462 · 🍴 8,237 · 📈 981 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "从Anthropic、OpenAI、Google等主流AI模型中提取的系统提示集合，涵盖Claude、ChatGPT、Gemini等模型，可用于提示工程研究与对比分析。"
+      "summary": "提取自 Anthropic（Claude Fable 5、Opus 4.8、Claude Code、Claude Design）、OpenAI（ChatGPT 5.5 Thinking、GPT 5.5 Instant、Codex）和 Google（Gemini 3.5 Flash、3.1 Pro、Antigravity）等模型的系统提示词，供研究或调试使用。"
     },
     {
       "sourceId": "github-trending",
       "title": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "excerpt": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "meta": "JavaScript · ★ 58,014 · 🍴 3,961 · 📈 863 stars today",
+      "meta": "JavaScript · ★ 58,049 · 🍴 3,961 · 📈 863 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为AI注入“品味”的技能，防止生成平庸、泛化的内容，提升输出质量和创意性，适用于文本生成场景。"
+      "summary": "为 AI 提供“好品味”，避免生成无聊、泛泛的内容。通过提示或技能注入，提升 Claude 等模型输出的创造性和多样性，适用于内容创作、文案优化等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "alirezarezvani/claude-skills",
       "url": "https://github.com/alirezarezvani/claude-skills",
       "excerpt": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commerc",
-      "meta": "Python · ★ 20,794 · 🍴 2,806 · 📈 392 stars today",
+      "meta": "Python · ★ 20,808 · 🍴 2,806 · 📈 392 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "包含337个Claude Code技能与代理插件（30+代理、70+自定义命令），适用于Claude Code、Codex、Gemini CLI、Cursor等编码代理，提供丰富的自动化能力。"
+      "summary": "包含 337 个 Claude Code 技能、代理技能和插件，涵盖 30+ 代理、70+ 自定义命令、330+ 技能及可定制引用脚本，且支持 Claude Code、Codex、Gemini CLI、Cursor 等 8 种编码代理，极大扩展 AI 编码助手的功能。"
     },
     {
       "sourceId": "github-trending",
       "title": "rommapp/romm",
       "url": "https://github.com/rommapp/romm",
       "excerpt": "A beautiful, powerful, self-hosted rom manager and player.",
-      "meta": "Python · ★ 10,662 · 🍴 512 · 📈 410 stars today",
+      "meta": "Python · ★ 10,669 · 🍴 513 · 📈 410 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "自托管的ROM管理器与播放器，界面美观且功能强大，支持游戏ROM的整理、元数据获取和直接游玩，适合游戏收藏爱好者。"
+      "summary": "功能强大且美观的自托管 ROM 管理器和模拟器前端，支持游戏 ROM 的存储、分类、元数据抓取和在线游玩。适合怀旧游戏爱好者搭建个人游戏库。"
     },
     {
       "sourceId": "github-trending",
       "title": "ogulcancelik/herdr",
       "url": "https://github.com/ogulcancelik/herdr",
       "excerpt": "agent multiplexer that lives in your terminal.",
-      "meta": "Rust · ★ 12,324 · 🍴 722 · 📈 651 stars today",
+      "meta": "Rust · ★ 12,339 · 🍴 722 · 📈 651 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "运行在终端中的代理多路复用器，可同时管理多个AI代理实例，简化并行任务调度与交互。"
+      "summary": "终端中的代理多路复用器，可同时管理多个 AI 代理，实现任务分发与结果聚合。适合需要在命令行中协调多个 LLM 或自动化脚本的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "alibaba/page-agent",
       "url": "https://github.com/alibaba/page-agent",
       "excerpt": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "meta": "TypeScript · ★ 24,235 · 🍴 2,081 · 📈 805 stars today",
+      "meta": "TypeScript · ★ 24,246 · 🍴 2,083 · 📈 805 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "基于JavaScript的页面内GUI代理，用户可用自然语言直接控制Web界面，实现自动化操作（如点击、填写表单），无需编写脚本。"
+      "summary": "阿里巴巴开源的 JavaScript 页面内 GUI 代理，通过自然语言指令控制网页界面，如点击、填写表单、爬取数据。适用于自动化测试、表单填写、数据采集等场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "harvard-edge/cs249r_book",
       "url": "https://github.com/harvard-edge/cs249r_book",
       "excerpt": "Machine Learning Systems",
-      "meta": "Python · ★ 26,972 · 🍴 3,209 · 📈 329 stars today",
+      "meta": "Python · ★ 26,977 · 🍴 3,211 · 📈 329 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "哈佛大学《机器学习系统》课程的开源教科书，系统讲解ML系统设计与实现，适合学生和工程师深入学习。"
+      "summary": "哈佛大学课程 CS249r 的教材《Machine Learning Systems》，系统讲解机器学习系统的设计、部署与运维，涵盖分布式训练、模型服务、MLOps 等核心主题。"
     },
     {
       "sourceId": "github-trending",
       "title": "usestrix/strix",
       "url": "https://github.com/usestrix/strix",
       "excerpt": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "meta": "Python · ★ 37,475 · 🍴 3,802 · 📈 1,114 stars today",
+      "meta": "Python · ★ 37,485 · 🍴 3,804 · 📈 1,114 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "开源AI渗透测试工具，自动发现应用中的安全漏洞并提供修复建议，帮助开发者在开发周期中快速排查风险。"
+      "summary": "开源 AI 渗透测试工具，利用 AI 自动发现并修复 Web 应用中的安全漏洞。适合安全工程师用于自动化漏洞扫描和修复建议生成。"
     },
     {
       "sourceId": "github-trending",
       "title": "hesreallyhim/awesome-claude-code",
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "excerpt": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer to",
-      "meta": "Python · ★ 48,576 · 🍴 4,250 · 📈 148 stars today",
+      "meta": "Python · ★ 48,584 · 🍴 4,250 · 📈 148 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Claude Code资源精选合集，收录了最佳教程、工具、技巧和插件，为开发者提供高效的编码辅助参考。"
+      "summary": "精心整理的 Claude Code 资源合集，涵盖官方文档、社区插件、教程、技巧和最佳实践，是 Claude Code 用户的入门与进阶参考指南。"
     },
     {
       "sourceId": "github-trending",
       "title": "coreyhaines31/marketingskills",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "excerpt": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "meta": "JavaScript · ★ 36,651 · 🍴 5,904 · 📈 145 stars today",
+      "meta": "JavaScript · ★ 36,666 · 🍴 5,905 · 📈 145 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向Claude Code和AI代理的市场营销技能集合，涵盖转化率优化、文案写作、SEO、分析和增长工程，可用于自动化营销任务。"
+      "summary": "为 Claude Code 和 AI 代理设计的市场营销技能包，涵盖转化率优化（CRO）、文案撰写、SEO、数据分析、增长黑客等。帮助营销人员自动化执行策略和内容生成。"
     },
     {
       "sourceId": "github-trending",
       "title": "JuliusBrussee/caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
       "excerpt": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "meta": "JavaScript · ★ 85,204 · 🍴 4,738 · 📈 1,052 stars today",
+      "meta": "JavaScript · ★ 85,224 · 🍴 4,739 · 📈 1,052 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Claude Code技能，通过模拟“原始人”式简短表达，将token消耗削减65%，在保留语义的同时大幅降低成本。"
+      "summary": "Claude Code 的技能，通过模拟“穴居人”说话风格减少约 65% 的 token 消耗，适用于对 API 成本敏感或需要极简提示的场合，保持功能同时降低费用。"
     },
     {
       "sourceId": "github-trending",
       "title": "CoplayDev/unity-mcp",
       "url": "https://github.com/CoplayDev/unity-mcp",
       "excerpt": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
-      "meta": "C# · ★ 12,068 · 🍴 1,288 · 📈 414 stars today",
+      "meta": "C# · ★ 12,072 · 🍴 1,288 · 📈 414 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Unity MCP作为AI助手与Unity编辑器的桥梁，赋予LLM管理资源、控制场景、编辑脚本和自动化任务的能力，提升游戏开发效率。"
+      "summary": "充当 AI 助手与 Unity 编辑器之间的桥梁，通过 MCP 协议赋予 LLM 管理资产、控制场景、编辑脚本、自动化任务的能力。适合游戏开发者用 AI 辅助 Unity 开发流程。"
     },
     {
       "sourceId": "github-trending",
       "title": "facebook/astryx",
       "url": "https://github.com/facebook/astryx",
       "excerpt": "An open source design system that's fully customizable and agent ready",
-      "meta": "TypeScript · ★ 6,122 · 🍴 391 · 📈 522 stars today",
+      "meta": "TypeScript · ★ 6,131 · 🍴 392 · 📈 522 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Facebook开源的设计系统，完全可定制且适配AI代理，提供统一的设计语言和组件库，方便快速构建界面并集成智能功能。"
+      "summary": "Facebook 开源的可定制设计系统，专为 AI 代理就绪而构建，支持组件化 UI 和快速定制。适用于需要统一界面风格且能与 AI 工具（如设计稿转代码）协作的团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "immich-app/immich",
       "url": "https://github.com/immich-app/immich",
       "excerpt": "High performance self-hosted photo and video management solution.",
-      "meta": "TypeScript · ★ 106,286 · 🍴 6,073 · 📈 470 stars today",
+      "meta": "TypeScript · ★ 106,298 · 🍴 6,074 · 📈 470 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "高性能自托管的照片与视频管理方案，支持自动备份、智能分类、人脸识别等功能，是Google Photos的开源替代品。"
+      "summary": "高性能自托管照片和视频管理解决方案，支持自动备份、智能分类、人脸识别、分享和搜索，界面类似 Google Photos。适合注重数据隐私的用户搭建个人媒体库。"
     },
     {
       "sourceId": "github-trending",
       "title": "ruvnet/RuView",
       "url": "https://github.com/ruvnet/RuView",
       "excerpt": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "meta": "Rust · ★ 76,849 · 🍴 10,303 · 📈 161 stars today",
+      "meta": "Rust · ★ 76,858 · 🍴 10,305 · 📈 161 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "利用普通WiFi信号实现实时空间感知、生命体征监测和存在检测，无需任何摄像头或传感器，适用于智能家居和安防场景。"
+      "summary": "利用普通 WiFi 信号实现实时空间感知、生命体征监测和存在检测，完全无需摄像头或专用传感器。适合智能家居、安防、老年人监护等非侵入式场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "gastownhall/gastown",
       "url": "https://github.com/gastownhall/gastown",
       "excerpt": "Gas Town - multi-agent workspace manager",
-      "meta": "Go · ★ 16,476 · 🍴 1,527 · 📈 51 stars today",
+      "meta": "Go · ★ 16,483 · 🍴 1,528 · 📈 51 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "多代理工作空间管理器，可同时运行和组织多个AI代理协作，便于复杂任务拆解与并行处理。"
+      "summary": "多代理工作空间管理器，提供统一的界面和环境来编排、协调多个 AI 代理，支持任务分配、资源管理和状态监控。适合运行复杂多代理系统的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "dotnet/skills",
       "url": "https://github.com/dotnet/skills",
       "excerpt": "Repository for skills to assist AI coding agents with .NET and C#",
-      "meta": "C# · ★ 4,118 · 🍴 307 · 📈 246 stars today",
+      "meta": "C# · ★ 4,124 · 🍴 308 · 📈 246 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": ".NET官方提供的AI编码代理技能仓库，包含针对C#和.NET框架的辅助命令与模板，帮助AI更好地理解并生成.NET代码。"
+      "summary": "面向 .NET 和 C# 的 AI 编码代理技能仓库，提供经过验证的技能、提示和最佳实践，帮助开发者在 Visual Studio、VS Code 或 Codex 中更高效地进行 .NET 开发。"
     },
     {
       "sourceId": "github-trending",
       "title": "steipete/CodexBar",
       "url": "https://github.com/steipete/CodexBar",
       "excerpt": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-      "meta": "Swift · ★ 16,410 · 🍴 1,359 · 📈 153 stars today",
+      "meta": "Swift · ★ 16,421 · 🍴 1,360 · 📈 153 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "无需登录即可在菜单栏显示OpenAI Codex和Claude Code的API使用统计，方便开发者监控token消耗和请求次数。"
+      "summary": "macOS 菜单栏工具，显示 OpenAI Codex 和 Claude Code 的使用统计（如 token 消耗、请求次数），无需登录即插即用。适合监控 AI API 用量和花费的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/claude-code",
       "url": "https://github.com/anthropics/claude-code",
       "excerpt": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "meta": "Python · ★ 136,422 · 🍴 21,920 · 📈 156 stars today",
+      "meta": "Python · ★ 136,426 · 🍴 21,920 · 📈 156 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic推出的终端代理编码工具，能理解整个代码库，自动执行常规任务、解释复杂代码、处理Git工作流，显著提升开发效率。"
+      "summary": "Anthropic 出品的终端 AI 编码代理，能理解整个代码库，执行日常任务、解释复杂代码、管理 Git 工作流，并在本地提供全功能协作体验。大幅提升开发者编程效率。"
     },
     {
       "sourceId": "v2ex-hot",
       "title": "[送永久激活码]RightX 增强你的 Mac Finder 右键",
       "url": "https://www.v2ex.com/t/1225211",
-      "excerpt": "79 回复 · Apple 节点",
+      "excerpt": "83 回复 · Apple 节点",
       "publishedAt": "2026-07-06T02:40:33.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -233,7 +233,7 @@
       "sourceId": "v2ex-hot",
       "title": "各位的梯子🪜 平均每个月流量使用多少？",
       "url": "https://www.v2ex.com/t/1225261",
-      "excerpt": "30 回复 · Apple 节点",
+      "excerpt": "31 回复 · Apple 节点",
       "publishedAt": "2026-07-06T04:50:47.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -244,6 +244,15 @@
       "url": "https://www.v2ex.com/t/1224588",
       "excerpt": "26 回复 · Python 节点",
       "publishedAt": "2026-07-02T10:48:24.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "mac 的外接显示器要完美必须 5K 吗？",
+      "url": "https://www.v2ex.com/t/1225314",
+      "excerpt": "24 回复 · Apple 节点",
+      "publishedAt": "2026-07-06T07:11:59.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -280,15 +289,6 @@
       "url": "https://www.v2ex.com/t/1224019",
       "excerpt": "13 回复 · Linux 节点",
       "publishedAt": "2026-06-30T11:56:12.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "mac 的外接显示器要完美必须 5K 吗？",
-      "url": "https://www.v2ex.com/t/1225314",
-      "excerpt": "13 回复 · Apple 节点",
-      "publishedAt": "2026-07-06T07:11:59.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -420,19 +420,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "sub2api 发邮件各位用的什么办法, QQ 吗?",
-      "url": "https://www.v2ex.com/t/1225219",
+      "title": "关于火山引擎 coding plan 里的 ds 和 glm5.2 模型 为什么不支持上传图片",
+      "url": "https://www.v2ex.com/t/1225303",
       "excerpt": "6 回复 · 程序员 节点",
-      "publishedAt": "2026-07-06T02:56:00.000Z",
+      "publishedAt": "2026-07-06T06:36:42.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "为什么这段 cuda 的并行前缀算法不会数据竞争",
-      "url": "https://www.v2ex.com/t/1225136",
-      "excerpt": "6 回复 · Python 节点",
-      "publishedAt": "2026-07-05T15:28:48.000Z",
+      "title": "sub2api 发邮件各位用的什么办法, QQ 吗?",
+      "url": "https://www.v2ex.com/t/1225219",
+      "excerpt": "6 回复 · 程序员 节点",
+      "publishedAt": "2026-07-06T02:56:00.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -714,7 +714,7 @@
       "publishedAt": "2026-07-03T14:25:43.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "Google DeepMind 与电影制作公司 A24 宣布达成首次研究合作伙伴关系，双方尚未披露合作的具体领域与目标。"
+      "summary": "Google DeepMind 与电影公司 A24 宣布首次研究合作。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -985,7 +985,7 @@
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "Hugging Face 博文《Kernels: Major Updates》宣布其核心组件 Kernels 迎来重大更新，具体改进细节未披露。"
+      "summary": "Hugging Face 发布了内核（Kernels）的重大更新。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1257,7 +1257,7 @@
       "meta": "👍 32",
       "category": "tech",
       "source": "HuggingFace 热门论文",
-      "summary": "提出多分辨率流匹配（Multi-Resolution Flow Matching）方法，通过分阶段采样加速文本到图像扩散模型，无需训练或自定义内核。利用多分辨率生成策略减少推理时间，保持生成质量。"
+      "summary": "提出多分辨率流匹配，通过分阶段采样加速文本到图像扩散模型，无需训练或自定义内核。利用多分辨率策略减少推理步骤，实现硬件无关的加速，在保持生成质量的同时显著缩短推理时间。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1268,7 +1268,7 @@
       "meta": "arXiv · multiscale, multi-scale",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出MedSaab-US，一种免反向传播的多尺度Wavelet-Saab框架用于超声图像甲状腺结节分割。无需GPU训练，参数少且数学可解释，适合资源受限的临床场景。"
+      "summary": "提出MedSaab-US，一种免反向传播的多尺度Wavelet-Saab框架用于超声甲状腺结节分割。无需GPU训练，参数极少且数学可解释性强，在资源受限场景下取得与深度学习方法相当的分割精度。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1279,7 +1279,7 @@
       "meta": "arXiv · multiscale, multi-scale",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出自动检测太阳暗条振荡的流水线，基于多尺度频谱分析。替代传统人工目视和手动放置狭缝方法，可从长Hα档案中自动检测空间分辨振荡，提升效率。"
+      "summary": "提出自动检测太阳暗条振荡的多尺度光谱管道，替代传统视觉检查和手动放置狭缝方法。通过多尺度频谱分析，实现从Hα档案中自动检测空间分辨振荡，提升检测效率和客观性。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1290,7 +1290,7 @@
       "meta": "arXiv · scientific machine learning",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "研究编码代理能否根据论文材料复现科学机器学习论文中的计算声明。提出提示策略，使编码代理自动生成代码验证指标（如相对均方误差<5%），无需人工干预。"
+      "summary": "研究编码智能体能否仅根据论文材料复现科学机器学习论文中的计算声明。设计系统提示策略，成功复现多项论文的误差指标等结果，验证了自动化复现论文计算声明的可行性。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1301,7 +1301,7 @@
       "meta": "arXiv · neural operator",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "改进傅里叶神经算子（FNO）用于二维Rayleigh-Bénard对流建模，通过预测时间增量而非完整解实现更高精度。模型紧凑（314k参数，1.26 MB），推理仅7 ms，且泛化到不同Rayleigh数。"
+      "summary": "提出改进的傅里叶神经算子（FNO）模拟二维Rayleigh-Bénard对流，通过预测时间增量而非全解提升精度。模型仅314k参数，推理7ms，在Nu数和温度场预测上优于标准FNO。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1312,7 +1312,7 @@
       "meta": "arXiv · multiscale, multi-scale, multi-resolution",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出CamoNAS，通过神经架构搜索（NAS）自动设计伪装目标检测网络。搜索最优特征融合结构，解决弱边缘和模糊边界问题，在多个COD基准上超越手工设计模型。"
+      "summary": "提出CamoNAS，利用神经架构搜索自动设计伪装目标检测网络，替代手工架构。在多尺度特征融合搜索空间中优化，在CAMO、COD10K等数据集上取得SOTA性能，有效处理弱边缘和模糊边界。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1323,7 +1323,7 @@
       "meta": "arXiv · multiscale, multi-scale",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出优化框架改善物理信息神经网络（PINN）的训练条件。通过重新参数化和梯度预处理，缓解损失景观的病态性，使PINN在多个PDE基准上达到与传统求解器相当的精度。"
+      "summary": "针对物理信息神经网络（PINN）训练中损失函数病态导致的精度不足问题，提出优化框架。通过改善损失景观的条件数，使PINN在多个PDE基准上达到传统数值求解器的精度水平。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1334,7 +1334,7 @@
       "meta": "arXiv · multiscale, multi-scale",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出Zeus，一种统一免调参的时间序列基础模型（TSFM）。无需任务特定微调即可在预测、分类、异常检测等多种分析任务上表现优异，超越现有需调参的方法。"
+      "summary": "提出Zeus，一个统一且免调优的时间序列基础模型（TSFM），无需针对任何下游任务微调。在零样本预测、分类、异常检测等任务上超越此前需调优的模型，实现真正的即用。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1345,7 +1345,7 @@
       "meta": "arXiv · multiscale, multi-scale",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出X-LogSMask，扩展Transformer适配图结构数据。用对数稀疏掩码替代全对全自注意力，捕捉图的稀疏、多尺度交互，在节点和图分类任务上优于现有Graph Transformer。"
+      "summary": "提出X-LogSMask，扩展Transformer以适配图结构数据，通过对数稀疏掩码机制替代全连接自注意力。在保持全局感受野的同时降低复杂度，在图分类和节点分类任务上优于Graph Transformer和MPNN。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1356,7 +1356,7 @@
       "meta": "arXiv · hierarchical representation",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出量子卷积自编码器用于基于重构的异常检测。利用QCNN的高效参数化和层次化表示，训练量子自编码器在低维潜空间中重构正常数据，从而检测异常。"
+      "summary": "提出量子卷积自编码器（QCAE）用于基于重构的异常检测。利用量子卷积神经网络的高效参数化和层次特征表示，在量子数据上实现异常检测，展示了量子机器学习在异常检测中的潜力。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1367,7 +1367,7 @@
       "meta": "arXiv · neural operator",
       "category": "tech",
       "source": "arXiv 跨尺度 AI",
-      "summary": "提出GAIA，几何自适应算子学习框架，统一处理PDE的正问题和逆问题。在任意几何上构建神经代理，通过几何自适应机制同时实现正向模拟和参数反演，保持精度。"
+      "summary": "提出GAIA（几何自适应算子学习），统一处理任意几何上的PDE正问题和逆问题。通过几何感知网络架构学习算子，在多个基准上实现高精度模拟，适用于复杂几何场景。"
     },
     {
       "sourceId": "arxiv-cross-scale",
@@ -1387,7 +1387,7 @@
       "publishedAt": "2026-07-03T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 7月3日简报：Meta 推出代号“Watermelon”的项目，Anthropic 与三星芯片达成合作，自动研究（autoresearch）进入实践阶段。"
+      "summary": "Meta 推出“Watermelon”项目，Anthropic 与三星芯片达成合作，自主研究（autoresearch）进入实践阶段。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1397,7 +1397,7 @@
       "publishedAt": "2026-07-02T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "TLDR AI 7月2日简报：Google Gemini Flash 完成升级，Meta 推出 AI 云服务，ZCode 项目也获得关注。"
+      "summary": "Gemini Flash 升级，Meta 推出 AI 云服务，ZCode 项目发布。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1562,6 +1562,381 @@
       "source": "TLDR AI"
     },
     {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Plug Power Commissions 5 MW PEM Electrolyzer in Denmark",
+      "url": "http://www.hydrogenfuelnews.com/green-hydrogen-production-plug-power-commissions-5-mw-pem-electrolyzer-in-denmar-6a4ac6bdf467c2aabe1dbf08/",
+      "excerpt": "Plug Power and European Energy have brought a 5 MW PEM electrolyzer online in Denmark, converting renewable electricity into green hydrogen to support industry and transport.",
+      "publishedAt": "2026-07-05T21:03:57.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "Plug Power与欧洲能源公司在丹麦投运5 MW PEM电解槽，将可再生电力转化为绿氢，支持工业和交通。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Hydrogen Infrastructure: HRS to Maintain Six Hydrogen Refueling Stations in Auvergne-Rhône-Alpes",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-infrastructure-hrs-to-maintain-six-hydrogen-refueling-stations-in-auver-6a4a101e85a4247cc8ff36b9/",
+      "excerpt": "HRS will maintain six HYmpulsion hydrogen refueling stations in Auvergne-Rhône-Alpes under a five-year contract, reinforcing Zero Emission Valley infrastructure reliability.",
+      "publishedAt": "2026-07-05T08:04:46.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "HRS与HYmpulsion签署五年合同，维护法国奥弗涅-罗讷-阿尔卑斯地区6个加氢站，强化“零排放谷”基础设施可靠性。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Hydrogen Fuel Cell News: Bloom Energy Joins Russell 1000 Growth Benchmark",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-fuel-cell-news-bloom-energy-joins-russell-1000-growth-benchmark-6a4a10047fb067a8f1f13955/",
+      "excerpt": "Bloom Energy Corporation’s addition to the Russell 1000 Growth Benchmark underscores institutional recognition of its large-cap growth status and its solid oxide fuel cell and hydrogen production technologies.",
+      "publishedAt": "2026-07-05T08:04:20.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "Bloom Energy被纳入罗素1000增长基准指数，表明其大型增长股地位及固体氧化物燃料电池和制氢技术获得机构认可。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Gold Hydrogen and Mitsubishi Gas Chemical to Explore Natural Hydrogen for Green Methanol in South Australia",
+      "url": "http://www.hydrogenfuelnews.com/green-hydrogen-production-gold-hydrogen-and-mitsubishi-gas-chemical-to-explore-n-6a4a0ffb16691682d1a0a00a/",
+      "excerpt": "Gold Hydrogen and Mitsubishi Gas Chemical have launched a feasibility study on producing green methanol from South Australia’s natural hydrogen reserves, combining geological hydrogen extraction with established methanol technology to explore a low-emission feedstock pathway.",
+      "publishedAt": "2026-07-05T08:04:11.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "Gold Hydrogen与三菱瓦斯化学启动可行性研究，利用南澳大利亚天然氢资源生产绿色甲醇，探索低排放原料路径。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Hydrogen Infrastructure on Wheels: Mobile Low-Carbon Fueling for California Transit",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-infrastructure-on-wheels-mobile-low-carbon-fueling-for-california-trans-6a495a1c5e0729444a70842f/",
+      "excerpt": "ZeroUp and K2 Pure Solutions have reportedly agreed to supply low-carbon hydrogen via mobile fueling units to California transit agencies, offering a flexible approach to decarbonize bus fleets, although key details remain unverified.",
+      "publishedAt": "2026-07-04T19:08:12.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "ZeroUp与K2 Pure Solutions据称通过移动加氢装置向加州交通机构供应低碳氢，灵活脱碳公交车队，但关键细节未证实。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "OPmobility’s StackPack: A Plug-and-Play Hydrogen Fuel Cell Module for Heavy-Duty Buses",
+      "url": "http://www.hydrogenfuelnews.com/opmobility-s-stackpack-a-plug-and-play-hydrogen-fuel-cell-module-for-heavy-duty--6a49594bd1d00ff303e2a63e/",
+      "excerpt": "OPmobility SE’s StackPack packs fuel cell stacks, air supply and controls into a single module, offering bus makers a plug-and-play hydrogen power unit for long-range, zero-emission heavy-duty routes.",
+      "publishedAt": "2026-07-04T19:04:43.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "OPmobility SE的StackPack将燃料电池堆、供气和控制集成于单一模块，为巴士制造商提供即插即用氢动力单元，适用于长距离零排放重型路线。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Jefferies Upgrade Spurs Data Center Power Sector Rotation",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-fuel-cell-news-jefferies-upgrade-spurs-data-center-power-sector-rotatio-6a49591be98d7604ff548560/",
+      "excerpt": "A Jefferies upgrade of FuelCell Energy highlighted its 380 MW data center fuel cell agreement, sparking a rotation in hydrogen fuel cell stocks. Investors rewarded visible contract pipelines at FuelCell while reevaluating valuations at Bloom Energy, Plug Power, Ceres Power and AFC Energy.",
+      "publishedAt": "2026-07-04T19:03:55.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "Jefferies上调FuelCell Energy评级，强调其380 MW数据中心燃料电池协议，引发氢燃料电池股轮动，投资者认可其可见合同管道，同时重新评估Bloom Energy、Plug Power等估值。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Hydrogen Production from Biogas: Italgas Drives EU’s TITAN Project for Renewable H₂ and Solid Carbon",
+      "url": "http://www.hydrogenfuelnews.com/hydrogen-production-from-biogas-italgas-drives-eu-s-titan-project-for-renewable--6a48a282a937459a87fdf832/",
+      "excerpt": "Italgas leads the EU-backed TITAN demo to convert biogas into renewable hydrogen and solid carbon, testing a circular model for distributed H₂ supply.",
+      "publishedAt": "2026-07-04T06:04:50.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "Italgas领导欧盟支持的TITAN示范项目，将沼气转化为可再生氢和固体碳，测试分布式氢气供应循环模式。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Green Hydrogen Production in Brazil: Ports Pecém, Açu and Suape Power Export Ambitions",
+      "url": "http://www.hydrogenfuelnews.com/green-hydrogen-production-in-brazil-ports-pec-m-a-u-and-suape-power-export-ambit-6a48a26ca937459a87fdf7b3/",
+      "excerpt": "Brazil is mobilizing its renewable energy base and deep-water ports to scale up green hydrogen and green ammonia exports, aiming to transform its energy trade via electrolyser clusters and port hubs.",
+      "publishedAt": "2026-07-04T06:04:28.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "巴西调动可再生能源和深水港资源，在佩塞姆、阿苏和苏阿佩港建设电解槽集群，扩大绿氢和绿氨出口，重塑能源贸易。"
+    },
+    {
+      "sourceId": "hydrogen-fuel-news",
+      "title": "Green Hydrogen Center in Magallanes Faces Institutional and Financial Uncertainty",
+      "url": "http://www.hydrogenfuelnews.com/green-hydrogen-center-in-magallanes-faces-institutional-and-financial-uncertaint-6a48a267aac5ed2053cdbeab/",
+      "excerpt": "Regional media report potential suspension of NEMa, Magallanes’ green hydrogen research hub, raising concerns about local capacity building and investor confidence.",
+      "publishedAt": "2026-07-04T06:04:23.000Z",
+      "category": "tech",
+      "source": "Hydrogen Fuel News",
+      "summary": "据区域媒体报道，智利麦哲伦绿氢研究中心NEMa可能暂停，引发对本地能力建设和投资者信心的担忧。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Spain Pours €162M ($185M) Into Cleantech — €18M for Renewable Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/07/03/green-hydrogen/spain-pours-162m-185m-into-cleantech-manufacturing-with-18m-for-renewable-hydrogen",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:58:26.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works",
+      "summary": "西班牙投入1.62亿欧元（约1.85亿美元）支持清洁技术制造，其中1800万欧元专门用于可再生氢。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Malta Keeps Its Dream of an EU-Funded Hydrogen Pipeline Alive",
+      "url": "https://fuelcellsworks.com/2026/07/03/green-investment/malta-keeps-its-dream-of-an-eu-funded-hydrogen-pipeline-alive",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:55:28.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works",
+      "summary": "马耳他继续推动由欧盟资助的氢气管道项目，保持其建设氢能枢纽的愿景。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Silver Medal for the TUCer Team's Hydrogen Car at the Shell Eco-Marathon Poland 2026",
+      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/silver-medal-for-the-tucer-team-at-the-shell-eco-marathon-poland-2026",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:49:17.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works",
+      "summary": "TUCer团队在2026年壳牌生态马拉松波兰站凭借氢动力汽车获得银牌。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "As Europe’s Hydrogen Market Takes Shape, Finland Tackles Logistical Constraints to Strengthen Its Competitive Edge",
+      "url": "https://fuelcellsworks.com/2026/07/03/hydrogen/as-europe-s-hydrogen-market-takes-shape-finland-tackles-logistical-constraints-to-strengthen-its-competitive-edge",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:43:09.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Brazil's Northeast Could Plug In 4 GW of Data Centres and Hydrogen Plants From 2032 — If the Grid Gets Built to Match",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/brazil-s-northeast-could-plug-in-4-gw-of-data-centres-and-hydrogen-plants-from-2032-if-the-grid-gets-built-to-match",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:15:49.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "China's Gansu Province Bets on Solid-Oxide Electrolysis for a 100,000-Tonne Green Methanol Plant — Possibly the World's Largest of Its Kind",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/china-s-gansu-province-bets-on-solid-oxide-electrolysis-for-a-100-000-tonne-green-methanol-plant-possibly-the-world-s-largest-of-its-kind",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:56:14.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "ULEMCo Supports Water Breakthrough Challenge",
+      "url": "https://fuelcellsworks.com/2026/07/03/energy-innovation/ulemco-supports-water-breakthrough-challenge",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:43:54.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Unexpected Discovery Yields New Graphene Oxide Production Method",
+      "url": "https://fuelcellsworks.com/2026/07/03/hydrogen/unexpected-discovery-yields-new-graphene-oxide-production-method",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:16:19.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "DVGW Demands that Hydrogen and Green Gases Be Considered More Strongly than Before in Future-Oriented Topics.",
+      "url": "https://fuelcellsworks.com/2026/07/02/h2/dvgw-demands-that-hydrogen-and-green-gases-be-considered-more-strongly-than-before-in-future-oriented-topics",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:13:22.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Post-Show Recap: ZTT's Full Solar-Energy-Storage-Hydrogen Chain Shines at Intersolar Europe 2026",
+      "url": "https://fuelcellsworks.com/2026/07/03/clean-energy/post-show-recap-ztt-s-full-solar-energy-storage-hydrogen-chain-shines-at-intersolar-europe-2026",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:04:06.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "BAM Opens a Unique Real-World Laboratory for Safe Hydrogen Networks in Europe",
+      "url": "https://fuelcellsworks.com/2026/07/02/hydrogen/bam-opens-a-unique-real-world-laboratory-for-safe-hydrogen-networks-in-europe",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T12:52:12.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Mitsubishi Gas Chemical and ACME Group Signed a Purchase and Sale of Green Methanol",
+      "url": "https://fuelcellsworks.com/2026/07/03/clean-energy/mitsubishi-gas-chemical-and-acme-group-signed-a-purchase-and-sale-of-green-methanol",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T12:42:48.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Spain Pours €162M ($185M) Into Cleantech — €18M for Renewable Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/07/03/green-hydrogen/spain-pours-162m-185m-into-cleantech-manufacturing-with-18m-for-renewable-hydrogen",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:58:26.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works",
+      "summary": "西班牙投入1.62亿欧元（约1.85亿美元）支持清洁技术制造，其中1800万欧元专门用于可再生氢。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Silver Medal for the TUCer Team's Hydrogen Car at the Shell Eco-Marathon Poland 2026",
+      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/silver-medal-for-the-tucer-team-at-the-shell-eco-marathon-poland-2026",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:49:17.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works",
+      "summary": "TUCer团队在2026年壳牌生态马拉松波兰站凭借氢动力汽车获得银牌。"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Brazil's Northeast Could Plug In 4 GW of Data Centres and Hydrogen Plants From 2032 — If the Grid Gets Built to Match",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/brazil-s-northeast-could-plug-in-4-gw-of-data-centres-and-hydrogen-plants-from-2032-if-the-grid-gets-built-to-match",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:15:49.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "China's Gansu Province Bets on Solid-Oxide Electrolysis for a 100,000-Tonne Green Methanol Plant — Possibly the World's Largest of Its Kind",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/china-s-gansu-province-bets-on-solid-oxide-electrolysis-for-a-100-000-tonne-green-methanol-plant-possibly-the-world-s-largest-of-its-kind",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:56:14.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "DVGW Demands that Hydrogen and Green Gases Be Considered More Strongly than Before in Future-Oriented Topics.",
+      "url": "https://fuelcellsworks.com/2026/07/02/h2/dvgw-demands-that-hydrogen-and-green-gases-be-considered-more-strongly-than-before-in-future-oriented-topics",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:13:22.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Spanish Researchers Produce Green Hydrogen From Brewery Wastewater",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/spanish-researchers-produce-green-hydrogen-from-brewery-wastewater",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T12:27:56.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "How Hyundai Motor Group’s Hydrogen and Robotics Tech Powered the Genesis Le Mans Debut",
+      "url": "https://fuelcellsworks.com/2026/07/02/energy-innovation/how-hyundai-motor-group-s-hydrogen-and-robotics-tech-powered-the-genesis-le-mans-debut",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T16:29:16.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Kanadevia Signs Partnership Agreement with Bahwan Engineering Company for Green Hydrogen Business Development in Oman",
+      "url": "https://fuelcellsworks.com/2026/06/29/green-hydrogen/kanadevia-signs-partnership-agreement-with-bahwan-engineering-company-for-green-hydrogen-business-development-in-oman",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T15:42:35.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "First Step Towards Hydrogen for Northwest Overijssel and Flevoland",
+      "url": "https://fuelcellsworks.com/2026/06/30/h2/first-step-towards-hydrogen-for-northwest-overijssel-and-flevoland",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T15:01:05.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Lhyfe Powers Weser-Ems-Bus Hydrogen Fleet With Mobile Refuelling Station",
+      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/lhyfe-powers-weser-ems-bus-hydrogen-fleet-with-mobile-refuelling-station",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T14:40:03.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "EWE Starts Construction of 24Km Hydrogen Pipeline to Link Emden Electrolyser With Germany’s Core H₂ Network",
+      "url": "https://fuelcellsworks.com/2026/07/02/h2/ewe-starts-construction-of-24km-hydrogen-pipeline-to-link-emden-electrolyser-with-germany-s-core-h-network",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T14:34:25.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "ErreDue Delivers 1MW Electrolyser for RES Hydrogen Valley in Molise",
+      "url": "https://fuelcellsworks.com/2026/06/28/electrolyzer/erredue-delivers-1mw-electrolyser-for-res-hydrogen-valley-in-molise",
+      "excerpt": "",
+      "publishedAt": "2026-07-02T14:28:09.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "KLM Celebrates the Start of Construction of the Netherlands’ First SAF Plant with SkyNRG",
+      "url": "https://fuelcellsworks.com/2026/06/01/clean-energy/klm-celebrates-the-start-of-construction-of-the-netherlands-first-saf-plant-with-skynrg",
+      "excerpt": "",
+      "publishedAt": "2026-06-01T14:01:41.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Ekinetix Shortlisted for Award Recognising Hydrogen Projects at Schiphol",
+      "url": "https://fuelcellsworks.com/2026/05/01/clean-energy/ekinetix-shortlisted-for-award-recognising-hydrogen-projects-at-schiphol",
+      "excerpt": "",
+      "publishedAt": "2026-05-01T14:58:30.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Indian Startup Develops Hydrogen Cooker that Runs on 100Ml of Water and 1kWh for up to 6 Hours",
+      "url": "https://fuelcellsworks.com/2026/04/20/energy-innovation/indian-startup-develops-hydrogen-cooker-that-runs-on-100ml-of-water-and-1kwh-for-up-to-6-hours",
+      "excerpt": "",
+      "publishedAt": "2026-04-21T12:56:21.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "AIMPLAS Leads the European IRION Project to Promote a More Circular and Sustainable Green Hydrogen Sector",
+      "url": "https://fuelcellsworks.com/2026/04/01/green-hydrogen/aimplas-leads-the-european-irion-project-to-promote-a-more-circular-and-sustainable-green-hydrogen-sector",
+      "excerpt": "",
+      "publishedAt": "2026-04-01T15:14:01.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "Silver Medal for the TUCer Team's Hydrogen Car at the Shell Eco-Marathon Poland 2026",
+      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/silver-medal-for-the-tucer-team-at-the-shell-eco-marathon-poland-2026",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T14:49:17.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
+      "sourceId": "fuel-cells-works",
+      "title": "ULEMCo Supports Water Breakthrough Challenge",
+      "url": "https://fuelcellsworks.com/2026/07/03/energy-innovation/ulemco-supports-water-breakthrough-challenge",
+      "excerpt": "",
+      "publishedAt": "2026-07-03T13:43:54.000Z",
+      "category": "tech",
+      "source": "Fuel Cells Works"
+    },
+    {
       "sourceId": "smol-ai-news",
       "title": "not much happened today",
       "url": "https://news.smol.ai/issues/26-07-02-not-much/",
@@ -1569,7 +1944,7 @@
       "publishedAt": "2026-07-02T05:44:39.000Z",
       "category": "tech",
       "source": "Smol AI News",
-      "summary": "Smol AI News 简报：Fullstack Code Arena 将编码智能体评估扩展至数据库、API 密钥、部署等场景，转向端到端应用交付。LangChain 发布 LangSmith（统一追踪）和 OpenWiki（自动文档生成）。"
+      "summary": "Fullstack Code Arena 将编码代理评估扩展到数据库、API 密钥等；LangChain 发布 LangSmith（统一追踪）和 OpenWiki（自动生成文档）。"
     },
     {
       "sourceId": "smol-ai-news",
@@ -1840,7 +2215,7 @@
       "publishedAt": "2026-07-03T05:11:43.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 报道 AI 工程师世界博览会闭幕日情况：围绕“循环”的辩论、AI 工程现状报告以及关于下一步构建内容的主旨演讲成为焦点。"
+      "summary": "AI工程师世界博览会（AIEWF）以循环（loops）辩论、AI工程状态报告及闭幕主题演讲收尾，聚焦下一步构建方向。"
     },
     {
       "sourceId": "latent-space",
@@ -1850,7 +2225,7 @@
       "publishedAt": "2026-07-03T00:08:18.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Vercel 软件主管 Andrew Qu 在 Latent Space 访谈中阐释其代理框架 Eve 的创建过程，并说明技能、沙盒和代理可读网站为何变得重要。"
+      "summary": "Vercel 软件主管 Andrew Qu 阐述其代理框架 eve 的创建过程，并强调技能、沙盒和代理可读网站的重要性。"
     },
     {
       "sourceId": "latent-space",
@@ -1860,7 +2235,7 @@
       "publishedAt": "2026-07-02T21:25:14.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Adobe 正在试验“代理型网站”，根据用户意图动态生成页面。Latent Space 在 AIEWF 上与 Carlos Sanchez 探讨了未来网络的这一趋势。"
+      "summary": "Adobe 正在实验“代理网站”（agentic sites），可根据用户意图动态生成页面。AIEWF 上 Carlos Sanchez 讨论了网页未来。"
     },
     {
       "sourceId": "latent-space",
@@ -1870,7 +2245,7 @@
       "publishedAt": "2026-07-02T14:36:05.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 采访 Paul Bakaus，讨论“Impeccable”项目、人类判断在“循环最大化”时代的作用，并强调智能体仍需人类引导，反对一次性 AI 设计。"
+      "summary": "Paul Bakaus 讨论 Impeccable 和人类判断在“循环最大化”时代的重要性，指出代理仍需人类引导。"
     },
     {
       "sourceId": "latent-space",
@@ -1880,7 +2255,7 @@
       "publishedAt": "2026-07-02T07:10:14.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 的 AINews 简报称当天市场平静，没有重大事件发生。"
+      "summary": "AI 新闻平静的一天，无重大事件发生。"
     },
     {
       "sourceId": "latent-space",
@@ -1890,7 +2265,7 @@
       "publishedAt": "2026-07-02T06:13:49.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "AIEWF 日报聚焦自动研究（autoresearch）与人类能动性之间的张力，多位演讲者反对完全自动化的软件工厂，强调人类理解与控制的重要性。"
+      "summary": "AIEWF 日报讨论自主研究（autoresearch）与人类能动性之间的张力，演讲者强调人类理解与控制的重要性。"
     },
     {
       "sourceId": "latent-space",
@@ -1900,7 +2275,7 @@
       "publishedAt": "2026-07-01T23:52:30.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Introspection 联合创始人 Roland Gavrilescu 解读自动研究（autoresearch）概念、智能体“配方”、自我改进循环，并强调人类在软件工厂中的核心地位。"
+      "summary": "Introspection 联合创始人 Roland Gavrilescu 阐述自主研究（autoresearch）、代理“配方”和自我改进循环，强调人类仍是软件工厂的核心。"
     },
     {
       "sourceId": "latent-space",
@@ -1910,7 +2285,7 @@
       "publishedAt": "2026-07-01T19:03:44.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Cursor 的 Pauline Brunet 介绍其前线部署工程师团队如何帮助企业实施智能体、建立软件工厂，并实现 AI 在企业内部的有效落地。"
+      "summary": "Cursor 的 Pauline Brunet 介绍其前部署工程师团队如何帮助企业实施代理，本质上是建立软件工厂。"
     },
     {
       "sourceId": "latent-space",
@@ -2028,7 +2403,7 @@
       "publishedAt": "2026-07-02T15:37:08.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "MIT 技术评论文章探讨利用 AI 实现运营卓越，回顾了 Lean Six Sigma 和 BPM 等框架在统计严谨性与质量控制方面的历史作用，并展望 AI 带来的新机遇。"
+      "summary": "文章探讨 AI 如何实现运营卓越，提及精益六西格玛（Lean Six Sigma）和业务流程管理（BPM）等框架在梳理混乱运营中的作用。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2038,7 +2413,7 @@
       "publishedAt": "2026-07-02T12:51:44.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "MIT 技术评论报道 AI 在物理基础设施领域的应用，超越聊天机器人等消费级工具，重点聚焦涡轮机等工业场景的运营连续性与安全性。"
+      "summary": "文章指出 AI 在物理基础设施、运营连续性和安全等工业领域有重大应用，超越聊天机器人和图像生成器。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2121,7 +2496,7 @@
       "category": "tech",
       "meta": "@EXM7777 · 122.0K 粉丝 · 208.2K 阅 · 525 赞 · 47 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者发布 Fable 5 的 25 个自动化工作流库，每个工作流配有 prompt 和工具，遵循 Karpathy 的方法论，旨在让 Fable 5 实现「自动驾驶」式运行。"
+      "summary": "EXM7777 分享 Fable 5 自动化工作流库，内含 25 个模板，每个都配有 prompt 和对应工具。遵循 Karpathy 方法论，适合想用 AI 实现无人值守任务的用户。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2132,7 +2507,7 @@
       "category": "tech",
       "meta": "@arthurmensch · 74.0K 粉丝 · 162.7K 阅 · 539 赞 · 76 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "企业领导者应优先使用开源模型，因为闭源模型提供商强制数据留存，会逐渐侵蚀企业控制权。作者警示此举对业务增长的长期风险。"
+      "summary": "arthurmensch 呼吁企业领导者拥抱开源模型，指出闭源模型强制数据留存会削弱企业控制权。强调开源对长期增长与数据主权的重要性。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2143,7 +2518,7 @@
       "category": "tech",
       "meta": "@EXM7777 · 122.0K 粉丝 · 83.6K 阅 · 518 赞 · 48 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分步教程：将 Fable 5 打造成「第二大脑」，使其深度理解业务并产出个性化内容。作者强调定制化训练和差异化输出的价值。"
+      "summary": "EXM7777 手把手教学，用 Fable 5 构建「第二大脑」——让 AI 深度理解业务并生成与众不同的输出。适合追求个性化工作流的用户。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2154,7 +2529,7 @@
       "category": "tech",
       "meta": "@trq212 · 299.3K 粉丝 · 40.1K 阅 · 534 赞 · 43 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "与 Claude Fable 5 协作的反思：prompt 和技能仅是「地图」，不等于实际成果。作者鼓励探索未知领域，摆脱预设框架的限制。"
+      "summary": "trq212 分享与 Claude Fable 5 协作的感悟：地图（prompts/技能/上下文）不等于领地（实际成果）。识别自身“未知”是提升输出质量的关键。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2165,7 +2540,17 @@
       "category": "tech",
       "meta": "@TheVixhal · 22.5K 粉丝 · 30.1K 阅 · 531 赞 · 56 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "AI/ML 必备数学完整路线图，拆解线性代数、微积分、概率等核心内容，并分享个人学习路径与资源，适合系统入门或复习。"
+      "summary": "TheVixhal 梳理 AI/ML 所需数学的完整路线图，涵盖核心概念与个人推荐资源。适合入门者系统性地补足数学基础。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Japan Former FX Czar: Yen Undervalued by Up to 20%",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-06/japan-former-fx-czar-yen-undervalued-by-up-to-20-video",
+      "excerpt": "The yen should be as much as 20% stronger than it is, said former top foreign exchange official in Japan Tatsuo Yamasaki. He spoke in an exclusive interview with Bloomberg’ Shery Ahn in Tokyo. (Source: Bloomberg)",
+      "publishedAt": "2026-07-06T07:55:19.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "日本前外汇主管山崎达雄表示，日元被低估幅度最高达20%，认为日元应比当前水平强20%。他在东京接受彭博专访时作出上述表态。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2202,7 +2587,7 @@
       "publishedAt": "2026-07-06T07:17:16.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "高盛全球外汇与利率主管Kamakshya Trivedi预计日元将在12个月后升至1美元兑165日元，此前预测为155日元，称日元被严重低估。"
+      "summary": "高盛将日元12个月预测从155下调至165日元兑1美元。高盛全球外汇和利率主管Kamakshya Trivedi表示，日元当前的低估程度是历史性的。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2221,7 +2606,7 @@
       "publishedAt": "2026-07-06T07:04:01.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "节目探讨石油供应过剩担忧，供应复苏超过需求增长，导致油价承压，市场关注供需失衡风险。"
+      "summary": "市场对石油供应过剩的担忧加剧，因供应恢复速度超过需求增长。该话题在彭博节目Insight with Haslinda Amin中进行了讨论。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2231,7 +2616,7 @@
       "publishedAt": "2026-07-06T07:00:20.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "CVC资本合伙人为新中端市场收购基金募集约30亿欧元（34亿美元），扩大其私募股权业务至小型交易。"
+      "summary": "CVC资本合伙公司为其新中型市场收购基金筹集约30亿欧元（34亿美元），将其私募股权业务扩展至更小规模的交易。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2241,7 +2626,7 @@
       "publishedAt": "2026-07-06T07:00:00.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "阿布扎比穆巴达拉投资公司首次向外部投资者开放其250亿美元信贷业务，旨在利用替代贷款需求增长吸引机构资本。"
+      "summary": "阿布扎比穆巴达拉投资公司首次将其250亿美元的信贷业务向外部投资者开放，押注自身吸引机构资本的能力，以满足不断增长的另类贷款需求。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2260,7 +2645,7 @@
       "publishedAt": "2026-07-06T06:53:41.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "阿布扎比财富基金将其主要能源公司TAQA私有化，尽管此前通过大规模IPO打造了海湾地区增长最快的股市之一。"
+      "summary": "阿布扎比主权财富基金计划将阿布扎比国家能源公司（TAQA）私有化。阿布扎比此前通过大规模IPO构建了海湾地区增长最快的股市，如今却将旗下最大公司之一退市。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2279,7 +2664,7 @@
       "publishedAt": "2026-07-06T06:38:20.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "Ocado Group首席执行官Tim Steiner将于2028财年初卸任，公司正面临一系列挫折和股价下跌的困境。"
+      "summary": "Ocado集团联合创始人蒂姆·施泰纳将在2028财年初辞去CEO职务。该公司正面临一系列挫折和股价下跌。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2288,8 +2673,7 @@
       "excerpt": "European NATO allies have mostly replaced the assets that the US has cut from its rescue plans in case of a war in Europe, Deputy Supreme Allied Commander Europe Sir John Stringer told Bloomberg TV in an interview. “European allies have definitely stepped up in terms of backfilling the adjustment in",
       "publishedAt": "2026-07-06T06:27:36.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "北约欧洲盟军最高副司令John Stringer表示，欧洲北约盟国已基本填补美国在战争救援计划中削减的资产。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2432,15 +2816,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-07-06/china-s-biggest-etf-is-now-a-gold-fund-as-national-team-retreats",
       "excerpt": "A China spot gold ETF has overtaken the Huatai-PineBridge CSI 300 ETF to become the country’s largest exchange-traded fund, highlighting the extent to which state-backed support for the stock market has faded.",
       "publishedAt": "2026-07-06T04:25:34.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Corn Jumps as French Crops Damaged by Intense European Heat Wave",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-06/corn-jumps-as-french-crops-damaged-by-intense-european-heat-wave",
-      "excerpt": "Corn futures surged after a heat wave damaged crops in France, one of the European Union’s biggest producers of the grain.",
-      "publishedAt": "2026-07-06T04:19:49.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -2626,13 +3001,23 @@
     },
     {
       "sourceId": "ft-companies",
+      "title": "Novartis to buy UK biotech in $1.5bn deal",
+      "url": "https://www.ft.com/content/0f6c9728-dd67-4403-9274-f2187082ce5e",
+      "excerpt": "Cancer-focused company was spun out from Imperial College and the Francis Crick Institute in 2019",
+      "publishedAt": "2026-07-06T07:46:19.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "诺华制药以15亿美元收购一家英国生物技术公司。该公司专注于癌症领域，于2019年从帝国理工学院和弗朗西斯·克里克研究所分离出来。"
+    },
+    {
+      "sourceId": "ft-companies",
       "title": "EasyJet reaches outline agreement on £5.5bn takeover by Castlelake",
       "url": "https://www.ft.com/content/0c317e2c-2fda-4c6f-8620-d8e629f1aeb3",
       "excerpt": "UK airline’s board says it is minded to recommend proposal by US private credit group",
       "publishedAt": "2026-07-06T07:26:46.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "易捷航空董事会倾向于推荐美国私人信贷集团Castlelake提出的55亿英镑收购要约，双方已达成框架协议。"
+      "summary": "易捷航空与美国私募信贷集团Castlelake达成55亿英镑收购框架协议。该公司董事会表示倾向于推荐该提案。"
     },
     {
       "sourceId": "ft-companies",
@@ -2642,7 +3027,7 @@
       "publishedAt": "2026-07-06T06:56:05.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "Ocado为联合创始人Tim Steiner在2028年初辞去CEO职务铺路，此前董事会施压其离职，公司正推进继任规划。"
+      "summary": "英国在线杂货配送公司Ocado为创始人兼CEO蒂姆·施泰纳在2028年离职铺路。董事会施压后，施泰纳留任至集团完成继任计划。"
     },
     {
       "sourceId": "ft-companies",
@@ -2651,8 +3036,7 @@
       "excerpt": "Combination will leave US media group Comcast in control of a broadcaster that reaches 21mn households",
       "publishedAt": "2026-07-06T06:37:18.000Z",
       "category": "finance",
-      "source": "Financial Times",
-      "summary": "天空电视台(Sky)同意以16亿英镑收购ITV，结合后美国媒体集团康卡斯特将控制一个覆盖2100万户家庭的广播公司。"
+      "source": "Financial Times"
     },
     {
       "sourceId": "ft-companies",
@@ -2844,15 +3228,6 @@
       "source": "Financial Times"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "Zenith ‘double-signed’ watch points to premium ambitions",
-      "url": "https://www.ft.com/content/d19d6791-6f56-4d26-8dfc-89588107335b",
-      "excerpt": "A limited edition with revered Japanese watchmaker Naoya Hida heralds a long-term series of high-end collaborations",
-      "publishedAt": "2026-07-06T03:00:21.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
       "sourceId": "bbc-business",
       "title": "ITV sells media and entertainment arm to Sky for £1.6bn",
       "url": "https://www.bbc.co.uk/news/articles/cx2wwgeg041o?at_medium=RSS&at_campaign=rss",
@@ -2860,7 +3235,7 @@
       "publishedAt": "2026-07-06T07:23:21.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "英国独立电视台(ITV)以16亿英镑将其媒体和娱乐部门出售给天空电视台(Sky)，双方表示此举将打造一个能与全球流媒体巨头抗衡的强劲对手。"
+      "summary": "英国独立电视台ITV以16亿英镑将媒体和娱乐业务出售给天空电视台Sky。两家广播公司表示，该交易将打造一个能与全球流媒体巨头抗衡的强大竞争者。"
     },
     {
       "sourceId": "bbc-business",
@@ -2897,7 +3272,7 @@
       "publishedAt": "2026-07-06T07:34:05.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "易捷航空原则上同意美国投资公司Castlelake以52亿英镑收购，此前曾四次拒绝其收购要约。"
+      "summary": "易捷航空原则上同意52亿英镑收购要约。此前该廉价航空公司曾四次拒绝美国投资公司Castlelake的收购报价。"
     },
     {
       "sourceId": "bbc-business",
@@ -3402,7 +3777,7 @@
       "publishedAt": "2026-07-06T07:15:58.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "俄罗斯一周内第二次袭击基辅，造成至少11人死亡。该市军事长官称救援工作仍在20多个地点进行。"
+      "summary": "俄罗斯一周内第二次袭击基辅，造成至少11人死亡。全市超过20个地点正在进行救援。"
     },
     {
       "sourceId": "bbc-world",
@@ -3574,7 +3949,7 @@
       "publishedAt": "2026-07-06T07:17:57.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "委内瑞拉地震中一名12岁女孩法比亚娜被困，靠番茄酱和奶酪存活。BBC记者采访了她。"
+      "summary": "委内瑞拉发生毁灭性地震，12岁的法比亚娜被困后靠番茄酱和奶酪幸存，BBC记者采访了她。"
     },
     {
       "sourceId": "bbc-world",
@@ -3706,11 +4081,11 @@
       "sourceId": "guardian-world",
       "title": "China tests long-range missile in South Pacific in move Australia condemns as ‘destabilising to region’",
       "url": "https://www.theguardian.com/world/2026/jul/06/china-missile-test-south-pacific",
-      "excerpt": "Australian government confirms it was informed by China of its intent to conduct the test on Monday China has conducted a long-range missile test in the South Pacific, in a move the Australian government condemned as “destabilising to the region” and which was also criticised by other regional leade",
-      "publishedAt": "2026-07-06T07:06:35.000Z",
+      "excerpt": "Move comes just hours after Australia and Fiji sign defence agreement as expert says timing not a coincidence China has conducted a long-range missile test in the South Pacific just hours after Australia signed a defence agreement with Fiji, sparking condemnation from Canberra and regional leaders. ",
+      "publishedAt": "2026-07-06T07:43:49.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "中国在南太平洋进行远程导弹试验，澳大利亚政府谴责其“破坏地区稳定”。澳大利亚称事先已获中国通知。"
+      "summary": "中国在南太平洋进行远程导弹试射，数小时前澳大利亚与斐济签署防务协议。澳方谴责此举“破坏地区稳定”。"
     },
     {
       "sourceId": "guardian-world",
@@ -3750,13 +4125,23 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Australia news live: One Nation to contest WA byelection triggered by Labor MP’s resignation",
+      "title": "Child protection services contacted before four-year-old’s alleged murder as police investigate cannibalism claim",
+      "url": "https://www.theguardian.com/australia-news/2026/jul/06/nsw-opposition-demands-child-protection-review-as-cannibalism-investigated-in-alleged-preschooler-ntwnfb",
+      "excerpt": "Police charge woman with murder after boy’s body was found in a Central Coast home on Saturday Get our breaking news email, free app or daily news podcast The New South Wales department in charge of child protection received “a number of reports” about a four-year-old child before he was allegedly m",
+      "publishedAt": "2026-07-06T07:32:21.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "澳大利亚新南威尔士州儿童保护部门曾接到关于一名四岁男童的多次报告，随后该男童疑似被杀，警方正在调查食人指控。一名女子被控谋杀。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "One Nation to contest WA byelection triggered by Labor MP’s resignation – as it happened",
       "url": "https://www.theguardian.com/australia-news/live/2026/jul/06/australia-news-live-crisafulli-bail-laws-property-market-auction-clearance-tax-reform-prime-minister-albanese-fiji-treaty-royal-commission-meta-antisemitism-ntwnfb",
-      "excerpt": "Pauline Hanson’s party confirms it will run a candidate in the Labor-held state seat of Secret Harbour. Follow today’s news live My colleague Josh Butler has a full report into today’s controversy surrounding Anthony Albanese’s podcast appearance. You can read the full debrief here: Meta executives ",
+      "excerpt": "This blog is now closed China tests long-range missile in South Pacific in move Australia condemns as ‘destabilising to region’ My colleague Josh Butler has a full report into today’s controversy surrounding Anthony Albanese’s podcast appearance. You can read the full debrief here: Meta executives t",
       "publishedAt": "2026-07-06T07:23:43.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "澳大利亚新闻：一国党确认将参加西澳大利亚州补选，竞选工党掌握的Secret Harbour席位。同时，总理阿尔巴尼斯因播客言论引发争议。"
+      "summary": "一国党将参加西澳补选，该补选因工党议员辞职而触发。同时，中国在南太平洋试射导弹引发争议，总理阿尔巴尼斯播客言论遭质疑。"
     },
     {
       "sourceId": "guardian-world",
@@ -3765,8 +4150,7 @@
       "excerpt": "Everything in Canberra is content now, from performative questions to calculated outbursts and comments about Kylie Minogue Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthony Albanese probably didnt expect an interview with a co",
       "publishedAt": "2026-07-06T06:38:27.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "澳大利亚总理阿尔巴尼斯在播客中回答“睡、结婚、约会”选择（涉及凯莉·米洛）引发争议，凸显社交媒体露面的双刃剑效应。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3788,12 +4172,13 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Likely origin of mysterious ‘space balls’ found on Queensland beaches revealed by Australian Space Agency",
-      "url": "https://www.theguardian.com/australia-news/2026/jul/06/mysterious-space-balls-queensland-beaches-origin-source-australia",
-      "excerpt": "Organisation says objects consistent with ‘debris from a foreign rocket body that recently re-entered the atmosphere’ The Australian Space Agency has said the six so-called “space balls” found in north Queensland were likely from a “foreign rocket body” that had recently re-entered the atmosphere af",
-      "publishedAt": "2026-07-06T05:42:30.000Z",
+      "title": "Zelenskyy calls for ‘strong decisions’ at Nato summit after Russia kills 11 in overnight strikes on Kyiv – Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/ukraine-russia-zelenskyy-nato-summit-strikes-kyiv-europe-latest-news-updates",
+      "excerpt": "Ukraine’s president makes plea ahead of summit this week in Ankara after over 68 missiles and 350 drones hit capital city Ukraine’s president Volodymyr Zelenskyy has urged Nato to make “strong decisions” at this week’s Nato summit in Ankara after 11 people were killed in another overnight Russian st",
+      "publishedAt": "2026-07-06T07:44:55.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "乌克兰总统泽连斯基呼吁北约在安卡拉峰会上做出“强有力决定”。俄罗斯一夜之间向基辅发射超过68枚导弹和350架无人机，导致11人死亡。"
     },
     {
       "sourceId": "guardian-world",
@@ -3802,8 +4187,7 @@
       "excerpt": "At least nine killed in the Ukraine capital in the second major assault on the city and its surrounds in less than a week Russian missiles and drones ⁠struck Kyiv early on Monday, killing at least nine people and heavily damaging apartment blocks and other buildings, officials said, just a few days ",
       "publishedAt": "2026-07-06T06:26:06.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "周一凌晨，俄罗斯导弹和无人机袭击基辅，造成至少9人死亡，公寓楼等建筑严重受损。这是不到一周内对基辅的第二次重大袭击，正值北约峰会前夕。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3812,8 +4196,7 @@
       "excerpt": "Broadway star, who is performing on the vessel, expresses shock after authorities ban Scarlet Lady from docking in Kuşadası A cruise ship carrying 2,000 LGBTQ+ passengers and the Broadway performer Patti LuPone has been blocked from entering Turkey after local authorities said their behaviour didn’t",
       "publishedAt": "2026-07-06T06:13:23.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "土耳其以“道德价值观”为由，禁止载有2000名LGBTQ+乘客和百老汇明星帕蒂·卢波恩的“猩红女士”号邮轮停靠库萨达斯港。卢波恩对此表示震惊。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -3835,21 +4218,23 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "German riot police clash with protesters hoping to block far-right AfD conference",
-      "url": "https://www.theguardian.com/world/2026/jul/04/german-riot-police-clash-protesters-block-far-right-afd-conference",
-      "excerpt": "Thousands of police deployed to Erfurt in central Germany as party holds conference on key Nazi date Riot police have clashed with opponents of the far-right Alternative für Deutschland (AfD) party on the streets of Erfurt in Germany, where thousands met to block roads and prevent AfD delegates from",
-      "publishedAt": "2026-07-04T13:17:50.000Z",
+      "title": "Middle East crisis live: Funeral procession for supreme leader Ali Khamenei begins in Iran",
+      "url": "https://www.theguardian.com/world/live/2026/jul/06/iran-middle-east-crisis-funeral-supreme-leader-ali-khamenei-tehran-latest-news-updates",
+      "excerpt": "Millions join funeral procession in capital of Tehran to mourn Khamenei who was kiled in US-Israel airstrikes in February Good morning, and welcome to the Middle East live blog. Today marks the start of a mass funeral procession for Iran’s former supreme leader, Ali Khamenei. Continue reading...",
+      "publishedAt": "2026-07-06T07:53:31.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "伊朗最高领袖哈梅内伊的葬礼在德黑兰举行，数百万民众参加。他于今年2月在美以空袭中丧生。"
     },
     {
       "sourceId": "guardian-world",
       "title": "Millions join funeral procession for Iran’s supreme leader Ali Khamenei",
       "url": "https://www.theguardian.com/world/2026/jul/06/ali-khamenei-funeral-procession-iran-supreme-leader",
-      "excerpt": "Crowds grew as they moved through Tehran as mourners wore black and carried flags with the slogan ‘we will rise’ A millions strong crowd assembled on Monday to take part in the funeral procession of Iran’s assassinated supreme leader. The scale, and depth of the march, however engineered, is an extr",
-      "publishedAt": "2026-07-06T06:10:34.000Z",
+      "excerpt": "Crowds swelled through Tehran as mourners dressed in black carried flags proclaiming: ‘We will rise’ A crowd of millions assembled on Monday for the funeral procession of Iran’s assassinated supreme leader, Ali Khamenei. The scale and depth of the march, however engineered, represents an extraordina",
+      "publishedAt": "2026-07-06T07:28:58.000Z",
       "category": "politics",
-      "source": "The Guardian"
+      "source": "The Guardian",
+      "summary": "数百万伊朗民众身着黑衣聚集德黑兰，参加最高领袖哈梅内伊的葬礼，人们高呼“我们将崛起”。"
     },
     {
       "sourceId": "guardian-world",
@@ -3879,33 +4264,24 @@
       "source": "The Guardian"
     },
     {
-      "sourceId": "guardian-world",
-      "title": "Crowds gather as six-day funeral for former Iranian supreme leader begins",
-      "url": "https://www.theguardian.com/world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei",
-      "excerpt": "Up to 30 million people expected to attend delayed events for Ali Khamenei, killed at start of war with US and Israel Huge crowds have gathered at the funeral of the former Iranian supreme leader after the gates of the sprawling Grand Mosalla mosque in central Tehran let in thousands of mourners who",
-      "publishedAt": "2026-07-04T12:51:41.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
       "sourceId": "nyt-world",
       "title": "Iran Live Updates: Crowds Gather in Tehran for Ayatollah’s Funeral Procession",
       "url": "https://www.nytimes.com/live/2026/07/06/world/iran-funeral-khamenei",
       "excerpt": "Tens of thousands of Iranians have viewed the casket of Ayatollah Ali Khamenei, who was exalted by some and despised by others. He was killed four months ago at the start of the U.S.-Israeli attacks.",
-      "publishedAt": "2026-07-06T07:36:45.000Z",
+      "publishedAt": "2026-07-06T07:47:23.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "伊朗最高领袖哈梅内伊葬礼在德黑兰举行，数万民众瞻仰灵柩。哈梅内伊四个月前在美以袭击中丧生，民众对其态度褒贬不一。"
+      "summary": "数万名伊朗民众聚集德黑兰瞻仰哈梅内伊灵柩。他在四个月前美以发动攻击之初被杀，民众对其评价褒贬不一。"
     },
     {
       "sourceId": "nyt-world",
       "title": "China Test Fires Long-Range Ballistic Missile in the Pacific",
       "url": "https://www.nytimes.com/2026/07/06/world/asia/china-pacific-nuclear-missile-launch.html",
       "excerpt": "China’s firing of a submarine-launched missile came as Australia secured more defense deals with Pacific Island nations. Countries expressed concern about the test.",
-      "publishedAt": "2026-07-06T07:22:47.000Z",
+      "publishedAt": "2026-07-06T07:46:56.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "中国在太平洋试射潜射远程弹道导弹，正值澳大利亚与太平洋岛国签署更多防务协议。多国对此表示担忧。"
+      "summary": "中国在太平洋试射一枚潜射远程弹道导弹，引发多国关切。此举正值澳大利亚与太平洋岛国达成更多防务协议之际。"
     },
     {
       "sourceId": "nyt-world",
@@ -4014,7 +4390,7 @@
       "publishedAt": "2026-07-06T07:25:57.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "伊朗最高领袖哈梅内伊葬礼最新动态，暂无详细内容。"
+      "summary": "暂无详细信息。"
     },
     {
       "sourceId": "nyt-world",
@@ -4162,6 +4538,16 @@
     },
     {
       "sourceId": "npr-world",
+      "title": "Russian missile and drone attack on Ukraine's capital kills at least 10",
+      "url": "https://www.npr.org/2026/07/06/g-s1-132088/russian-missile-drone-attack-kyiv-kills-at-least-10",
+      "excerpt": "Russia launched waves of missiles and drones targeting Kyiv early Monday that killed at least 10 people, authorities said.",
+      "publishedAt": "2026-07-06T07:41:08.000Z",
+      "category": "politics",
+      "source": "NPR World",
+      "summary": "俄罗斯周一凌晨向乌克兰首都基辅发射多波导弹和无人机，造成至少10人死亡。"
+    },
+    {
+      "sourceId": "npr-world",
       "title": "Trump won spending promises from NATO last year. This week, he'll try to enforce them",
       "url": "https://www.npr.org/2026/07/06/g-s1-132082/trump-nato-turkey-spending",
       "excerpt": "President Donald Trump is heading to Ankara, Turkey, for the annual NATO summit. Last year, he pushed NATO allies to spend more on defense. This year, his mission is to try to enforce those pledges.",
@@ -4238,15 +4624,6 @@
       "url": "https://www.npr.org/2026/07/04/nx-s1-5879160/pope-leo-visits-lampedusa-to-spotlight-missing-migrants",
       "excerpt": "Pope Leo XIV will spend July 4th in Lampedusa, Italy, one of Europe's busiest migrant landing points. He will pray with migrants and honor those who died trying to cross the Mediterranean to Europe.",
       "publishedAt": "2026-07-04T21:03:49.000Z",
-      "category": "politics",
-      "source": "NPR World"
-    },
-    {
-      "sourceId": "npr-world",
-      "title": "Iran begins week of funeral celebrations for Khamenei",
-      "url": "https://www.npr.org/2026/07/04/nx-s1-5877738/iran-begins-week-of-funeral-celebrations-for-khamenei",
-      "excerpt": "Foreign dignitaries are gathering in Iran for a week of funeral ceremonies for Ayatollah Ali Khamenei, more than four months after he was killed in U.S.-Israeli airstrikes.",
-      "publishedAt": "2026-07-04T21:03:46.000Z",
       "category": "politics",
       "source": "NPR World"
     },
@@ -4528,7 +4905,7 @@
       "publishedAt": "2026-07-06T07:28:48.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "中国军方在太平洋从潜艇试射弹道导弹，引发澳大利亚、新西兰、日本等国批评与关切。"
+      "summary": "中国军方在太平洋从潜艇试射弹道导弹，澳大利亚、新西兰和日本对此表示批评和担忧。"
     },
     {
       "sourceId": "aljazeera",
@@ -4538,7 +4915,7 @@
       "publishedAt": "2026-07-06T07:11:33.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "伊朗已故最高领袖哈梅内伊葬礼队伍行进中，民众沿途哀悼，随后将在马什哈德下葬，仪式持续一周。"
+      "summary": "伊朗为遇害的最高领袖哈梅内伊举行葬礼，送葬队伍在德黑兰行进，随后将安葬在马什哈德，为期一周的悼念活动正在进行。"
     },
     {
       "sourceId": "aljazeera",
@@ -4548,7 +4925,7 @@
       "publishedAt": "2026-07-06T07:05:35.000Z",
       "category": "politics",
       "source": "Al Jazeera",
-      "summary": "伊朗最高领袖哈梅内伊的葬礼队伍在德黑兰街头行进，民众涌上街头送别。"
+      "summary": "视频显示，民众挤满德黑兰街道，参加伊朗最高领袖哈梅内伊的葬礼游行。"
     },
     {
       "sourceId": "aljazeera",
@@ -4557,8 +4934,7 @@
       "excerpt": "Ukrainian President Volodymyr Zelenskyy had warned of a likely attack ahead of meeting with US President Donald Trump.",
       "publishedAt": "2026-07-06T06:35:50.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "北约峰会前夕，俄罗斯袭击乌克兰造成11人死亡。乌克兰总统泽连斯基此前曾警告可能发生袭击，他即将与美国总统特朗普会晤。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -4567,8 +4943,7 @@
       "excerpt": "Sudan’s maternity wards reopen, bringing hope and safe deliveries to mothers navigating post-war economic hardships.",
       "publishedAt": "2026-07-06T06:18:48.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "苏丹产科病房重新开放，为战后经济困境中的母亲带来希望和安全分娩条件。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
