@@ -33,6 +33,7 @@ const TEXTS_ZH = {
   subAiNews: "AI 媒体",
   subTrendingPapers: "跨尺度 AI 论文",
   subHydrogenEnergy: "氢能动态",
+  subResearchJobs: "博士/博士后招聘",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
   subCnCommunity: "中文社区",
@@ -83,6 +84,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subAiNews: "AI Media",
   subTrendingPapers: "Cross-scale AI Papers",
   subHydrogenEnergy: "Hydrogen Energy",
+  subResearchJobs: "PhD/Postdoc Jobs",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
   subCnCommunity: "Chinese Community",
@@ -173,18 +175,19 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "trending-papers", "hydrogen-energy", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  tech: ["github-trending", "trending-papers", "hydrogen-energy", "research-jobs", "x-viral", "ai-news", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
 };
 
-const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "hydrogen-energy", "x-viral", "ai-news"]);
+const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "hydrogen-energy", "research-jobs", "x-viral", "ai-news"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
   "github-trending": "GitHub Trending",
   "trending-papers": STR.subTrendingPapers,
   "hydrogen-energy": STR.subHydrogenEnergy,
+  "research-jobs": STR.subResearchJobs,
   "cn-community": STR.subCnCommunity,
   "overseas-community": STR.subOverseasCommunity,
   "ai-news": STR.subAiNews,
@@ -245,6 +248,7 @@ function displayLimitFor(
 export const MERGED_SUBGROUP_LIMITS: Record<string, number> = {
   "tech:ai-news": 15,
   "tech:hydrogen-energy": 15,
+  "tech:research-jobs": 12,
   "finance:news": 12,
   "politics:world": 15,
 };

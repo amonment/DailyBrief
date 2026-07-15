@@ -4,6 +4,7 @@ import { fetchGithubTrending } from "./github-trending";
 import { fetchHackerNews } from "./hackernews";
 import { fetchHuggingfacePapers } from "./huggingface-papers";
 import { fetchLinuxDo } from "./linuxdo";
+import { fetchResearchJobs } from "./research-jobs";
 import { fetchRss } from "./rss";
 import { fetchV2ex } from "./v2ex";
 import type { RawArticle, SourceDef } from "./types";
@@ -22,6 +23,7 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.id === "arxiv-cross-scale") {
     return fetchArxivPapers(source.id, source.url, source.keywords);
   }
+  if (source.id === "research-jobs") return fetchResearchJobs(source);
   return fetchRss(source.id, source.url, source.category, {
     useCurl: source.useCurl,
   });

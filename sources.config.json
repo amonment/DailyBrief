@@ -217,6 +217,44 @@
     "notes": "燃料电池、制氢、储运、项目投资与政策动态。"
   },
   {
+    "id": "research-jobs",
+    "name": "全球博士/博士后招聘",
+    "type": "api",
+    "url": "https://jobs.sciencecareers.org/jobsrss/",
+    "category": "tech",
+    "subcategory": "research-jobs",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": [
+      "PEMFC",
+      "PEMWE",
+      "LBM",
+      "proton exchange membrane",
+      "polymer electrolyte membrane",
+      "fuel cell",
+      "fuel cells",
+      "electrolyzer",
+      "electrolyser",
+      "electrolysis",
+      "electrochemistry",
+      "electrochemical",
+      "fluid mechanics",
+      "fluid dynamics",
+      "lattice Boltzmann",
+      "lattice-Boltzmann",
+      "multiscale",
+      "multi-scale",
+      "cross-scale",
+      "跨尺度",
+      "电化学",
+      "流体力学"
+    ],
+    "notes": "通过 Science Careers RSS 与 Google News RSS 追踪全球高校与企业博士、博士后、研究员岗位线索；本地要求同时命中岗位词与技术关键词，并限制 90 天内结果。"
+  },
+  {
     "id": "smol-ai-news",
     "name": "Smol AI News",
     "type": "rss",
