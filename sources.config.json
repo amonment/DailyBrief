@@ -252,7 +252,7 @@
       "电化学",
       "流体力学"
     ],
-    "notes": "通过 Science Careers RSS 与 Google News RSS 追踪全球高校与企业博士、博士后、研究员岗位线索；本地要求同时命中岗位词与技术关键词，并限制 90 天内结果。"
+    "notes": "通过 Science Careers RSS 与 Google News RSS 追踪全球高校与企业博士、博士后、研究员、研究工程师岗位线索；岗位词仍是准入门槛，PEMFC/PEMWE/LBM/跨尺度/电化学/流体力学等作为重点关注词用于排序，不再作为硬过滤；同时扩展到能源、氢能、材料、化工、机械、流体、CFD、传热、多孔介质、膜、计算建模、AI for Science 等相邻方向。"
   },
   {
     "id": "smol-ai-news",

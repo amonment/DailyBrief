@@ -34,20 +34,70 @@ const DEFAULT_TECH_KEYWORDS = [
   "流体力学",
 ];
 
+const BROAD_SEARCH_TERMS = [
+  "energy",
+  "hydrogen",
+  "renewable energy",
+  "chemical engineering",
+  "mechanical engineering",
+  "materials science",
+  "computational science",
+  "computational modeling",
+  "scientific computing",
+  "AI for science",
+  "machine learning",
+  "fluid dynamics",
+  "CFD",
+  "thermal",
+  "heat transfer",
+  "porous media",
+  "membrane",
+  "transport phenomena",
+  "simulation",
+  "modeling",
+  "modelling",
+  "electrochemistry",
+  "catalysis",
+  "fuel cell",
+  "battery",
+];
+
 const ROLE_RE =
-  /\b(phd\s+(position|student(ship)?|candidate|researcher|opportunit(y|ies))|doctoral\s+(candidate|researcher|student|position)|postdoc\s+(position|opportunit(y|ies))|postdoctoral\s+(researcher|position|fellow|associate)|research\s+fellow|research\s+associate|open\s+position(s)?|vacanc(y|ies)|hiring|job\s+(opportunit(y|ies)|opening(s)?|posting(s)?))\b/i;
+  /\b(phd\s+(position|student(ship)?|candidate|researcher|fellow(ship)?|opportunit(y|ies))|doctoral\s+(candidate|researcher|student|position|fellow(ship)?)|postdoc\s+(position|fellow(ship)?|opportunit(y|ies))|postdoctoral\s+(researcher|position|fellow|associate|fellowship)|research\s+fellow|research\s+associate|junior\s+research\s+fellow|research\s+scientist|research\s+engineer|scientist\s+(position|role)|faculty\s+position|tenure-track|assistant\s+professor|associate\s+professor|professor\s+position)\b/i;
+
+const NOISE_RE =
+  /\b(award|recognition|symposium|conference|webinar|workshop|defen[cs]e|developed|says|said|opinion|scholarship results?|exam|admit card)\b/i;
+
+const BIOMED_NOISE_RE =
+  /\b(cancer|tumou?r|oncology|immunology|microbiome|mucosal|hepatic|neuroscience|brain|clinical|patient|disease|genomics|bioinformatics)\b/i;
 
 function stripHtml(s: string): string {
   return s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
-function matchesDomainKeyword(text: string, keywords: string[]): boolean {
+function matchingKeywords(text: string, keywords: string[]): string[] {
   const haystack = text.toLowerCase();
   const regularKeywords = keywords.filter((keyword) => keyword.toUpperCase() !== "LBM");
-  if (regularKeywords.some((keyword) => haystack.includes(keyword.toLowerCase()))) {
-    return true;
+  const matches = regularKeywords.filter((keyword) =>
+    haystack.includes(keyword.toLowerCase()),
+  );
+  if (/\bLBM\b/.test(text) && /\b(lattice|boltzmann)\b/i.test(text)) {
+    matches.push("LBM");
   }
-  return /\bLBM\b/.test(text) && /\b(lattice|boltzmann)\b/i.test(text);
+  return [...new Set(matches)];
+}
+
+function scoreArticle(text: string, keywords: string[]): number {
+  const priorityMatches = matchingKeywords(text, keywords).length;
+  const broadMatches = matchingKeywords(text, BROAD_SEARCH_TERMS).length;
+  return priorityMatches * 5 + broadMatches;
+}
+
+function matchesBroadDomain(text: string, keywords: string[]): boolean {
+  return (
+    matchingKeywords(text, keywords).length > 0 ||
+    matchingKeywords(text, BROAD_SEARCH_TERMS).length > 0
+  );
 }
 
 function quote(term: string): string {
@@ -63,7 +113,7 @@ function buildScienceCareersUrl(keyword: string): string {
 }
 
 function focusedKeywords(keywords: string[]): string[] {
-  const preferred = [
+  const priority = [
     "PEMFC",
     "PEMWE",
     "fuel cell",
@@ -75,13 +125,14 @@ function focusedKeywords(keywords: string[]): string[] {
     "multiscale",
     "multi-scale",
   ];
-  return preferred.filter((keyword) =>
+  const configured = priority.filter((keyword) =>
     keywords.some((sourceKeyword) => sourceKeyword.toLowerCase() === keyword.toLowerCase()),
   );
+  return [...new Set([...configured, ...BROAD_SEARCH_TERMS])];
 }
 
 function buildGoogleQueries(keywords: string[]): string[] {
-  const focused = [
+  const priority = [
     "PEMFC",
     "PEMWE",
     "fuel cell",
@@ -93,14 +144,13 @@ function buildGoogleQueries(keywords: string[]): string[] {
     "multiscale",
     "multi-scale",
   ];
-  const keywordExpr = `(${focused.map(quote).join(" OR ")})`;
+  const priorityExpr = `(${priority.map(quote).join(" OR ")})`;
+  const broadExpr = `(${BROAD_SEARCH_TERMS.map(quote).join(" OR ")})`;
   return [
-    `("PhD position" OR "PhD studentship" OR "doctoral candidate" OR "doctoral researcher") ${keywordExpr} when:90d`,
-    `(postdoc OR postdoctoral OR "research fellow" OR "research associate") ${keywordExpr} when:90d`,
-    `(hiring OR vacancy OR job OR scientist OR engineer) (${keywords
-      .slice(0, 12)
-      .map(quote)
-      .join(" OR ")}) when:90d`,
+    `("PhD position" OR "PhD studentship" OR "doctoral candidate" OR "doctoral researcher") ${broadExpr} when:90d`,
+    `(postdoc OR postdoctoral OR "research fellow" OR "research associate") ${broadExpr} when:90d`,
+    `("PhD position" OR postdoc OR postdoctoral OR "research fellow") ${priorityExpr} when:180d`,
+    `(hiring OR vacancy OR "open position" OR "job opening") ("university" OR "institute" OR "company" OR "startup") ${broadExpr} when:90d`,
   ];
 }
 
@@ -115,7 +165,7 @@ export async function fetchResearchJobs(source: SourceDef): Promise<RawArticle[]
   const scienceCareersUrls = focusedKeywords(keywords).map(buildScienceCareersUrl);
   const cutoff = Date.now() - 90 * 24 * 60 * 60 * 1000;
   const seen = new Set<string>();
-  const out: RawArticle[] = [];
+  const out: { article: RawArticle; score: number }[] = [];
 
   const feeds = [
     ...scienceCareersUrls,
@@ -134,19 +184,27 @@ export async function fetchResearchJobs(source: SourceDef): Promise<RawArticle[]
       if (!title || !url) continue;
       if (publishedAt && publishedAt.getTime() < cutoff) continue;
       if (!ROLE_RE.test(text)) continue;
-      if (!matchesDomainKeyword(text, keywords)) continue;
+      if (NOISE_RE.test(text)) continue;
+      if (BIOMED_NOISE_RE.test(text)) continue;
+      if (!matchesBroadDomain(text, keywords)) continue;
 
       const key = canonicalKey(url, title);
       if (seen.has(key)) continue;
       seen.add(key);
 
+      const matches = matchingKeywords(text, keywords);
+      const score = scoreArticle(text, keywords);
       out.push({
-        sourceId: source.id,
-        title,
-        url,
-        excerpt,
-        publishedAt,
-        category: source.category,
+        score,
+        article: {
+          sourceId: source.id,
+          title,
+          url,
+          excerpt,
+          publishedAt,
+          category: source.category,
+          meta: matches.length > 0 ? `关键词：${matches.slice(0, 4).join(" / ")}` : "广域招聘线索",
+        },
       });
     }
   }
@@ -154,7 +212,10 @@ export async function fetchResearchJobs(source: SourceDef): Promise<RawArticle[]
   return out
     .sort(
       (a, b) =>
-        (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
+        b.score - a.score ||
+        (b.article.publishedAt?.getTime() ?? 0) -
+          (a.article.publishedAt?.getTime() ?? 0),
     )
+    .map((item) => item.article)
     .slice(0, 20);
 }
